@@ -179,22 +179,22 @@ int warmestLakes(double lakeTemps[365][6]){
 	/*Prints which lake is the warmest and displays the highest temperature*/
 	switch (warmest){
 		case 0:
-			printf("\nLake Superior had the highest temperature of all the lakes of %0.2lf", warmestTemps[0]);
+			printf("\nLake Superior had the highest temperature of all the lakes of %0.2lf", warmestTemps[warmest]);
 			break;
 		case 1:
-			printf("\nLake Michigan had the highest temperature of all the lakes of %0.2lf", warmestTemps[1]);
+			printf("\nLake Michigan had the highest temperature of all the lakes of %0.2lf", warmestTemps[warmest]);
 			break;
 		case 2:
-			printf("\nLake Huron had the highest temperature of all the lakes of %0.2lf", warmestTemps[2]);
+			printf("\nLake Huron had the highest temperature of all the lakes of %0.2lf", warmestTemps[warmest]);
 			break;
 		case 3:
-			printf("\nLake Erie had the highest temperature of all the lakes of %0.2lf", warmestTemps[3]);
+			printf("\nLake Erie had the highest temperature of all the lakes of %0.2lf", warmestTemps[warmest]);
 			break;
 		case 4:
-			printf("\nLake Ontario had the highest temperature of all the lakes of %0.2lf", warmestTemps[4]);
+			printf("\nLake Ontario had the highest temperature of all the lakes of %0.2lf", warmestTemps[warmest]);
 			break;
 		case 5:
-			printf("\nLake St.Clair had the highest temperature of all the lakes of %0.2lf", warmestTemps[5]);
+			printf("\nLake St.Clair had the highest temperature of all the lakes of %0.2lf", warmestTemps[warmest]);
 			break;
 		default:
 			printf("Error\n");
@@ -231,22 +231,22 @@ int coldestLakes(double lakeTemps[365][6]){
 	/*Prints which lake is the coldest and displays the lowest temperature*/
 	switch (coldest){
 		case 0:
-			printf("\nLake Superior had the lowest temperature of all the lakes of %0.2lf", coldestTemps[0]);
+			printf("\nLake Superior had the lowest temperature of all the lakes of %0.2lf", coldestTemps[coldest]);
 			break;
 		case 1:
-			printf("\nLake Michigan had the lowest temperature of all the lakes of %0.2lf", coldestTemps[1]);
+			printf("\nLake Michigan had the lowest temperature of all the lakes of %0.2lf", coldestTemps[coldest]);
 			break;
 		case 2:
-			printf("\nLake Huron had the lowest temperature of all the lakes of %0.2lf", coldestTemps[2]);
+			printf("\nLake Huron had the lowest temperature of all the lakes of %0.2lf", coldestTemps[coldest]);
 			break;
 		case 3:
-			printf("\nLake Erie had the lowest temperature of all the lakes of %0.2lf", coldestTemps[3]);
+			printf("\nLake Erie had the lowest temperature of all the lakes of %0.2lf", coldestTemps[coldest]);
 			break;
 		case 4:
-			printf("\nLake Ontario had the lowest temperature of all the lakes of %0.2lf", coldestTemps[4]);
+			printf("\nLake Ontario had the lowest temperature of all the lakes of %0.2lf", coldestTemps[coldest]);
 			break;
 		case 5:
-			printf("\nLake St.Clair had the lowest temperature of all the lakes of %0.2lf", coldestTemps[5]);
+			printf("\nLake St.Clair had the lowest temperature of all the lakes of %0.2lf", coldestTemps[coldest]);
 			break;
 		default:
 			printf("Error\n");
