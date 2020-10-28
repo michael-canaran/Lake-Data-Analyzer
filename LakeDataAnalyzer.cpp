@@ -1,4 +1,10 @@
-#include <stdio.h>
+#include <iostream>
+#include <vector>
+using namespace std;
+
+class Lake {
+	vector<int> temperatures;
+};
 
 /*Finds the date of occurence when given a row number, i*/
 int dateFinder(int i){
